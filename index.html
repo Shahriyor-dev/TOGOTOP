@@ -10,7 +10,7 @@
 <body>
   <header class="header">
     <div class="header__inner">
-    <div class="container">
+      <div class="container">
         <div class="header__top">
           <div class="header__logo">
             <a class="header__logo-link" href="#">
@@ -23,19 +23,20 @@
             <button class="header__btn header__btn-signup" type="button">Зарегистрироваться</button>
           </div>
           <div class="header__burger">
+            <button class="header__burger-btn"></button>
             <span></span>
           </div>
         </div>
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__item">
+            <li class="menu__item menu__item-list">
               <a class="menu__item-link" href="#">
                 Как это работает
               </a>
             </li>
             <li class="menu__item">
               <div class="menu__dropdown">
-                <div class="menu__item-link" type="menu">Сервисы</div>
+                <div class="menu__item-link">Сервисы</div>
                 <div class="menu__dropdown-content">
                   <a class="menu__dropdown-item" href="#">Выкупы</a>
                   <a class="menu__dropdown-item" href="#">Лайки</a>
@@ -45,32 +46,38 @@
                 </div>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item menu__item-list">
               <a class="menu__item-link" href="#">
                 Тарифы
               </a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item menu__item-list">
               <a class="menu__item-link menu__item-link--accent" href="#">
                 Переезд на TOGOTOP
               </a>
             </li>
             <li class="menu__item">
               <div class="menu__dropdown">
-                <div class="menu__item-link" type="menu">Партнерам</div>
+                <div class="menu__item-link">Партнерам</div>
                 <div class="menu__dropdown-content">
-                  <a class="menu__dropdown-item" href="#">Выкупы</a>
-                  <a class="menu__dropdown-item" href="#">Лайки</a>
-                  <a class="menu__dropdown-item" href="#">Отзывы</a>
-                  <a class="menu__dropdown-item" href="#">Продвижение под ключ</a>
-                  <a class="menu__dropdown-item" href="#">Аналитика</a>
+                  <a class="menu__dropdown-item" href="#">Реферальная программа</a>
+                  <a class="menu__dropdown-item" href="#">Для агентств</a>
+                  <a class="menu__dropdown-item" href="#">Наши партнеры</a>
                 </div>
               </div>
             </li>
             <li class="menu__item">
-              <a class="menu__item-link" href="#">
-                Помощь
-              </a>
+              <div class="menu__dropdown">
+                <div class="menu__item-link">Помощь</div>
+                <div class="menu__dropdown-content">
+                  <a class="menu__dropdown-item" href="#">Документация</a>
+                  <a class="menu__dropdown-item" href="#">Обучение</a>
+                  <a class="menu__dropdown-item" href="#">Часто задаваемые вопросы</a>
+                  <a class="menu__dropdown-item" href="#">Отзывы клиентов </a>
+                  <a class="menu__dropdown-item" href="#">Блог для селлеров</a>
+                  <a class="menu__dropdown-item" href="#">Наши контакты</a>
+                </div>
+              </div>
             </li>
           </ul>
         </nav>
@@ -94,19 +101,248 @@
               <div class="header-content__counter-slider">
                 <div class="header-content__counter-item">
                   <div class="header-content__counter-figures">
-                    <div id="odometer1" class="odometer header-content__counter-figure">3195</div>
+                    <div id="number-ticker" class="number-ticker">
+                      <div class="digit-bg">
+                      <div id="digit-place4" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit-place3" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit-place2" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit-place1" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  
                   <h4 class="header-content__counter-text">Зарегистрировались на сервисе:</h4>
                 </div>
                 <div class="header-content__counter-item">
                   <div class="header-content__counter-figures header-content__counter-figures--accent">
-                    <div id="odometer2" class="odometer header-content__counter-figure">319758</div>
+                    <div class="number-ticker">
+                      <div class="digit-bg">
+                      <div id="digit1-place6" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit1-place5" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit1-place4" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit1-place3" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit1-place2" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit1-place1" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <h4 class="header-content__counter-text">Сделанных выкупов</h4>
                 </div>
                 <div class="header-content__counter-item">
                   <div class="header-content__counter-figures">
-                    <div id="odometer3" class="odometer header-content__counter-figure">31979</div>
+                    <div id="number-ticker" class="number-ticker">
+                      <div class="digit-bg">
+                      <div id="digit2-place5" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit2-place4" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit2-place3" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit2-place2" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                      <div class="digit-bg">
+                      <div id="digit2-place1" class="digit">
+                        <div class="col-num">0</div>
+                        <div class="col-num">1</div>
+                        <div class="col-num">2</div>
+                        <div class="col-num">3</div>
+                        <div class="col-num">4</div>
+                        <div class="col-num">5</div>
+                        <div class="col-num">6</div>
+                        <div class="col-num">7</div>
+                        <div class="col-num">8</div>
+                        <div class="col-num">9</div>
+                        <div class="col-num">0</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <h4 class="header-content__counter-text">Действий с товарами</h4>
                 </div>
@@ -124,16 +360,36 @@
             <div class="skill__tabs" id="skill__tabs">
               <input type="radio" name="skill__tab-btn" id="skill__tab-btn-1" value>
               <label class="skill__tab-btn skill__tab-btn-1" for="skill__tab-btn-1">
-                <img src="images/skill-tab-btn-1.png" alt></label>
+                <img src="images/skill-tab-btn-1.png" alt>
+                <svg class="svg" width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="circle" cx="47" cy="47" r="44.5" stroke="#2CB67D" stroke-width="5"/>
+                </svg>
+
+              </label>
               <input type="radio" name="skill__tab-btn" id="skill__tab-btn-2" value>
               <label class="skill__tab-btn skill__tab-btn-2" for="skill__tab-btn-2">
-                <img src="images/skill-tab-btn-2.png" alt></label>
+                <img src="images/skill-tab-btn-2.png" alt>
+                <svg class="svg" width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="circle" cx="47" cy="47" r="44.5" stroke="#2CB67D" stroke-width="5"/>
+                </svg>
+
+              </label>
               <input type="radio" name="skill__tab-btn" id="skill__tab-btn-3" value>
               <label class="skill__tab-btn skill__tab-btn-3" for="skill__tab-btn-3">
-                <img src="images/skill-tab-btn-3.png" alt></label>
+                <img src="images/skill-tab-btn-3.png" alt>
+                <svg class="svg" width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="circle" cx="47" cy="47" r="44.5" stroke="#2CB67D" stroke-width="5"/>
+                </svg>
+
+              </label>
               <input type="radio" name="skill__tab-btn" id="skill__tab-btn-4" value>
               <label class="skill__tab-btn skill__tab-btn-4" for="skill__tab-btn-4">
-                <img src="images/skill-tab-btn-4.png" alt></label>
+                <img src="images/skill-tab-btn-4.png" alt>
+                <svg class="svg" width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="circle" cx="47" cy="47" r="44.5" stroke="#2CB67D" stroke-width="5"/>
+                </svg>
+
+              </label>
               <div class="skill__tab null" id="skill__content-1">
                 <img class="skill__tab-img" src="images/skill-tab-img-1.png" alt>
                 <div class="skill__tab-info">
@@ -142,7 +398,7 @@
                   </h3>
                   <p class="skill__tab-text">Поставщики, производители, владельцы
                     интернет-магазинов, которые планируют
-                    расширить каналы сбыта через маркетплейсы.</p>
+                    расширить каналы сбыта через маркетплейсы.1</p>
                 </div>
               </div>
               <div class="skill__tab" id="skill__content-2">
@@ -154,30 +410,29 @@
                   </h3>
                   <p class="skill__tab-text">Поставщики, производители, владельцы
                     интернет-магазинов, которые планируют
-                    расширить каналы сбыта через маркетплейсы.</p>
+                    расширить каналы сбыта через маркетплейсы.2</p>
                 </div>
               </div>
               <div class="skill__tab" id="skill__content-3">
-                <img class="skill__tab-img" src="images/skill-tab-img-1.png" alt>
+                <img class="skill__tab-img" src="images/skill-tab-img-3.png" alt>
                 <div class="skill__tab-info">
                   <h3 class="skill__tab-title">
-                    Автоматизированная система самовыкупов
+                    Аналитика продвижения товара
                   </h3>
                   <p class="skill__tab-text">Поставщики, производители, владельцы
                     интернет-магазинов, которые планируют
-                    расширить каналы сбыта через маркетплейсы.</p>
+                    расширить каналы сбыта через маркетплейсы.3</p>
                 </div>
               </div>
               <div class="skill__tab" id="skill__content-4">
-                <img class="skill__tab-img skill__tab-img--even" src="images/skill-tab-img-2.png" alt>
+                <img class="skill__tab-img skill__tab-img--even" src="images/skill-tab-img-4.png" alt>
                 <div class="skill__tab-info">
                   <h3 class="skill__tab-title">
-                    Калькулятор расчета
-                    стратегии продвижения
+Управление отзывами, лайками и другими поведенческими факторами
                   </h3>
                   <p class="skill__tab-text">Поставщики, производители, владельцы
                     интернет-магазинов, которые планируют
-                    расширить каналы сбыта через маркетплейсы.</p>
+                    расширить каналы сбыта через маркетплейсы.4</p>
                 </div>
               </div>
             </div>
@@ -213,42 +468,36 @@
                 </div>
               </div>
               <div class="case__tab" id="case__content-2">
-                <img class="case__tab-img" src="images/case-tab-img-1.png" alt>
+                <img class="case__tab-img" src="images/case-tab-img-2.png" alt>
                 <div class="case__tab-info">
                   <h3 class="case__tab-title">
-                    Увеличение объема продаж
+                    Автоматизация работы и процессов
                   </h3>
-                  <p class="case__tab-text"> <span>Проблема</span>: нет понимания, как масштабировать
+                  <p class="case__tab-text"> <span>Проблема</span>: многие задачи приходится выполнять вручную 
+                    или привлекать подрядчиков.
                     свой бизнес на Wildberries.</p>
-                  <p class="case__tab-text"><span>Решение</span>: в TOGOTOP есть все инструменты
-                    для продвижения товарных карточек
-                    в ТОП категорий маркетплейса.2</p>
+                  <p class="case__tab-text"><span>Решение</span>: в платформе TOGOTOP обширный функционал, который позволит автоматизировать рутинные процессы продвижения.</p>
                 </div>
               </div>
               <div class="case__tab" id="case__content-3">
-                <img class="case__tab-img" src="images/case-tab-img-1.png" alt>
+                <img class="case__tab-img" src="images/case-tab-img-3.png" alt>
                 <div class="case__tab-info">
                   <h3 class="case__tab-title">
-                    Увеличение объема продаж
+                    Репутация
                   </h3>
-                  <p class="case__tab-text"> <span>Проблема</span>: нет понимания, как масштабировать
-                    свой бизнес на Wildberries.</p>
-                  <p class="case__tab-text"><span>Решение</span>: в TOGOTOP есть все инструменты
-                    для продвижения товарных карточек
-                    в ТОП категорий маркетплейса.3</p>
+                  <p class="case__tab-text"> <span>Проблема</span>: Повышайте свой рейтинг на маркетплейсе.</p>
+                  <p class="case__tab-text"><span>Решение</span>:  Внутренние инструменты TOGOTOP помогут повысить рейтинг селлера и товаров в целом.</p>
                 </div>
               </div>
               <div class="case__tab" id="case__content-4">
-                <img class="case__tab-img" src="images/case-tab-img-1.png" alt>
+                <img class="case__tab-img" src="images/case-tab-img-4.png" alt>
                 <div class="case__tab-info">
                   <h3 class="case__tab-title">
-                    Увеличение объема продаж
+                    Аналитика запросов и показатели позиций товаров в выдаче
                   </h3>
-                  <p class="case__tab-text"> <span>Проблема</span>: нет понимания, как масштабировать
-                    свой бизнес на Wildberries.</p>
-                  <p class="case__tab-text"><span>Решение</span>: в TOGOTOP есть все инструменты
-                    для продвижения товарных карточек
-                    в ТОП категорий маркетплейса.4</p>
+                  <p class="case__tab-text"> <span>Проблема</span>: нужна базовая аналитика, сторонние сервисы 
+                    стоят дорого под мои задачи.</p>
+                  <p class="case__tab-text"><span>Решение</span>: в TOGOTOP разработал бесплатный инструмент аналитики и рекламных ставок для селлеров, используйте и не платите за сторонние сервисы.</p>
                 </div>
               </div>
             </div>
@@ -270,7 +519,7 @@
                         вы можете потратить на тест платформы</p>
                     </div>
                   </div>
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">2</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Пополните баланс личного кабинета</h5>
@@ -278,7 +527,7 @@
                         или внесите произвольную сумму пополнения</p>
                     </div>
                   </div>
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">3</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Запустите продвижение </h5>
@@ -291,7 +540,7 @@
               </div>
               <div class="steps__slider-item">
                 <div class="steps__slider-content">
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">1</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Зарегистрируйтесь</h5>
@@ -307,7 +556,7 @@
                         или внесите произвольную сумму пополнения</p>
                     </div>
                   </div>
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">3</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Запустите продвижение </h5>
@@ -320,7 +569,7 @@
               </div>
               <div class="steps__slider-item">
                 <div class="steps__slider-content">
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">1</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Зарегистрируйтесь</h5>
@@ -328,7 +577,7 @@
                         вы можете потратить на тест платформы</p>
                     </div>
                   </div>
-                  <div class="steps__slider-box">
+                  <div class="steps__slider-box steps__slider-box--remove">
                     <p class="steps__slider-num">2</p>
                     <div class="steps__slider-info">
                       <h5 class="steps__slider-title">Пополните баланс личного кабинета</h5>
@@ -394,9 +643,9 @@
           </h2>
           <div class="client__inner">
             <div class="client__slider">
-              <div class="client__slider-item client__slider-item--first">
+              <div class="client__slider-item active">
                 <img class="client__slider-img" src="images/client-slider-img-1.png" alt="img">
-                <h6 class="client__slider-name">Новичок</h6>
+                <h6 class="client__slider-name client__slider-name--first">Новичок</h6>
                 <p class="client__slider-text">Поставщики, производители, владельцы
                   интернет-магазинов, которые планируют
                   расширить каналы сбыта через маркетплейсы.</p>
@@ -405,16 +654,25 @@
                 <img class="client__slider-img" src="images/client-slider-img-2.png" alt="img">
                 <h6 class="client__slider-name">Действующий
                   селлер</h6>
+                  <p class="client__slider-text">Поставщики, производители, владельцы
+                    интернет-магазинов, которые планируют
+                    расширить каналы сбыта через маркетплейсы.</p>
               </div>
               <div class="client__slider-item">
                 <img class="client__slider-img" src="images/client-slider-img-3.png" alt="img">
                 <h6 class="client__slider-name">Менеджер
                   маркетплейса</h6>
+                  <p class="client__slider-text">Поставщики, производители, владельцы
+                    интернет-магазинов, которые планируют
+                    расширить каналы сбыта через маркетплейсы.</p>
               </div>
               <div class="client__slider-item">
                 <img class="client__slider-img" src="images/client-slider-img-4.png" alt="img">
                 <h6 class="client__slider-name">Digital студии
                   и агентства</h6>
+                  <p class="client__slider-text">Поставщики, производители, владельцы
+                    интернет-магазинов, которые планируют
+                    расширить каналы сбыта через маркетплейсы.</p>
               </div>
             </div>
           </div>
@@ -790,6 +1048,20 @@
                 </a>
               </div>
             </div>
+          </div>
+          <div class="footer__socials">
+            <a class="footer__social" href="#">
+              <img class="footer__img" src="images/social-img-1.png">
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__img" src="images/social-img-2.png">
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__img" src="images/social-img-3.png">
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__img" src="images/social-img-4.png">
+            </a>
           </div>
         </div>
         <div class="footer__down">
